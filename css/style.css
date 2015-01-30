@@ -1,0 +1,28 @@
+body {
+    background: rgb(34, 44, 55);
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    padding: 100px;
+}
+
+div#me {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/me.jpg);
+    background-size: 110%;
+    background-position: 0px -10px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 3px solid #FFFFFF;
+}
+
+h1 {
+    color: #19e3b1;
+}
+
+h2{
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin: 0;
+}
