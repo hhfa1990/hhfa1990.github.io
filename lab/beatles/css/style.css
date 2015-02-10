@@ -1,0 +1,962 @@
+
+#play{display: none}
+#PlayStop{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+#share{
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+#share p{margin: 0}
+#share a{color: #333;font-weight: bold;}
+
+.wrap1{background-color: #C2C2C2;position: relative;z-index: 0;border-top: 55px solid #C2C2C2;}
+.wrap2{
+    margin-top: 25px;
+ }
+
+#ringo{
+    width: 35px;
+    margin: auto;
+}
+
+#paul, #harrison, #lennon{
+    width: 35px;
+    margin: auto;
+}
+
+#top{
+    height: 80px;
+    background-color: #a8a8a8;
+    width: 160px;
+    margin: 0 auto -23px auto;
+    position: relative;
+    z-index: 1;
+    border-top: 5px solid #fbfbfb;
+}
+
+#plataforma{
+    width: 600px;
+    height: 100px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    margin: 0 auto -50px;
+    border-bottom: 12px solid #404040;
+}
+
+#base{
+    background-color: #DFDFDF;
+    height: 84px;
+    width: 500px;
+    margin: -20px auto -50px;
+    position: relative;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+#bateria{
+    height: 80px;
+    width: 160px;
+    margin: -35px auto 0;
+}
+
+
+#ringo div.cuerpo{
+    width: 30px;
+}
+
+#ringo div.cabeza{
+    background-color: rgb(247, 217, 217);
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    -webkit-radius: 100%;
+    -moz-radius: 100%;
+    -ms-radius: 100%;
+    -o-radius: 100%;
+    border-top: 9px solid black;
+    margin: auto;
+}
+
+#ringo div.cuello{
+    height: 8px;
+    background-color: rgb(247, 217, 217);
+    width: 5px;
+    margin: -3px auto 0;
+}
+
+#ringo div.brazo{
+    background-color: black;
+    height: 25px;
+    width: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    border-radius: 4px 4px 5px 5px;
+    -webkit-border-radius: 4px 4px 5px 5px;
+    -moz-border-radius: 4px 4px 5px 5px;
+    -ms-border-radius: 4px 4px 5px 5px;
+    -o-border-radius: 4px 4px 5px 5px;
+}
+
+#ringo div.b-izq{
+    margin-left: -5px;
+    transform: rotate(52deg);
+    -webkit-transform: rotate(52deg);
+    -moz-transform: rotate(52deg);
+    -ms-transform: rotate(52deg);
+    -o-transform: rotate(52deg);
+    
+    transform-origin: 5px 5px;
+    -webkit-transform-origin: 5px 5px;
+    -moz-transform-origin: 5px 5px;
+    -ms-transform-origin: 5px 5px;
+    -o-transform-origin: 5px 5px;
+        
+    z-index: 0;
+}
+
+#ringo div.b-der{
+    margin-left: 25px;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    
+    transform-origin: 5px 5px;
+    -webkit-transform-origin: 5px 5px;
+    -moz-transform-origin: 5px 5px;
+    -ms-transform-origin: 5px 5px;
+    -o-transform-origin: 5px 5px;
+}
+
+#ringo div.b-izq div.antebrazo, #ringo div.b-der div.antebrazo{
+    background-color: black;
+    height: 25px;
+    margin-top: 15px;
+    border-bottom: 5px solid white;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+        
+    transform-origin: 5px 5px;
+    -webkit-transform-origin: 5px 5px;
+    -moz-transform-origin: 5px 5px;
+    -ms-transform-origin: 5px 5px;
+    -o-transform-origin: 5px 5px;
+}
+
+#ringo div.b-izq div.antebrazo{
+    transform: rotate(66deg);
+    -webkit-transform: rotate(66deg);
+    -moz-transform: rotate(66deg);
+    -ms-transform: rotate(66deg);
+    -o-transform: rotate(66deg);
+}
+
+#ringo div.b-der div.antebrazo{
+    transform: rotate(-100deg);
+    -webkit-transform: rotate(-100deg);
+    -moz-transform: rotate(-100deg);
+    -ms-transform: rotate(-100deg);
+    -o-transform: rotate(-100deg);
+}
+
+#ringo div.saco{
+    background-color: black;
+    height: 45px;
+}
+
+#ringo div.camisa{
+    width: 15px;
+    height: 17px;
+    background-color: white;
+    margin: auto;
+}
+#ringo div.corbata{
+    height: 25px;
+    width: 5px;
+    background-color: silver;
+    margin: auto;
+}
+
+#ringo div.mano{
+    width: 8px;
+    height: 9px;
+    background-color: rgb(247, 217, 217);
+    position: absolute;
+    margin: 24px 0px;
+    z-index: 0;
+}
+
+
+
+
+
+.cabeza{
+    background-color: rgb(247, 217, 217);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+        
+    border-top: 12px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.cuello{
+    height: 12px;
+    background-color: rgb(247, 217, 217);
+    width: 6px;
+    margin: -3px auto;
+    position: relative;
+}
+
+.brazo{
+    background-color: black;
+    height: 30px;
+    width: 12px;
+    display: inline-block;
+    position: absolute;
+    top: 36px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+        
+    transform-origin: 6px 6px;
+    -webkit-transform-origin: 6px 6px;
+    -moz-transform-origin: 6px 6px;
+    -ms-transform-origin: 6px 6px;
+    -o-transform-origin: 6px 6px;
+}
+
+.b-izq{
+    margin-left: -5px;
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+        
+    z-index: 0;
+}
+
+#harrison .b-izq, #lennon .b-izq{
+    z-index:1
+}
+
+.b-der{
+    margin-left: 28px;
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+}
+
+#paul .b-der{
+    z-index:1
+}
+
+.b-izq div.antebrazo, .b-der div.antebrazo{
+    background-color: black;
+    height: 37px;
+    margin-top: 18px;
+    border-bottom: 5px solid white;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+        
+    transform-origin: 6px 6px;
+    -webkit-transform-origin: 6px 6px;
+    -moz-transform-origin: 6px 6px;
+    -ms-transform-origin: 6px 6px;
+    -o-transform-origin: 6px 6px;
+}
+.b-der div.antebrazo{
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+}
+
+#lennon .b-der div.antebrazo{
+    transform: rotate(-75deg);
+    -webkit-transform: rotate(-75deg);
+    -moz-transform: rotate(-75deg);
+    -ms-transform: rotate(-75deg);
+    -o-transform: rotate(-75deg);
+}
+
+#paul .b-izq div.antebrazo{
+    transform: rotate(66deg);
+    -webkit-transform: rotate(66deg);
+    -moz-transform: rotate(66deg);
+    -ms-transform: rotate(66deg);
+    -o-transform: rotate(66deg);
+}
+
+.saco{
+    background-color: black;
+    height: 60px;
+    position: relative;
+}
+.camisa{
+    width: 19px;
+    height: 20px;
+    background-color: white;
+    margin: auto;
+}
+.corbata{
+    height: 28px;
+    width: 6px;
+    background-color: silver;
+    margin: auto;
+}
+.pierna{
+    width: 12px;
+    height: 45px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+        
+    margin-top: -6px;
+    transform-origin: 5px 5px;
+    -webkit-transform-origin: 5px 5px;
+    -moz-transform-origin: 5px 5px;
+    -ms-transform-origin: 5px 5px;
+    -o-transform-origin: 5px 5px;
+        
+    position: relative;
+    z-index: -1;
+}
+
+#lennon .pierna{
+    height:55px
+}
+
+#lennon .pantorrilla{
+    margin-top:43px}
+
+.pantorrilla{
+    height: 40px;
+    background-color: black;
+    margin-top: 33px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+        
+    transform-origin: 6px 6px;
+    -webkit-transform-origin: 6px 6px;
+    -moz-transform-origin: 6px 6px;
+    -ms-transform-origin: 6px 6px;
+    -o-transform-origin: 6px 6px;
+}
+
+.p-izq div.pie{
+    margin-left: -8px;
+    
+}
+
+.p-der{
+    float: right;
+}
+
+.p-izq{/*
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);*/
+}
+
+.p-izq div.pantorrilla{/*
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);*/
+        
+    border-radius: 6px 6px 0;
+    -webkit-border-radius: 6px 6px 0;
+    -moz-border-radius: 6px 6px 0;
+    -ms-border-radius: 6px 6px 0;
+    -o-border-radius: 6px 6px 0;
+}
+
+.p-der div.pantorrilla{/*
+    transform: rotate(0deg);
+    -webkit-
+    -moz-
+    -ms-
+    -o-*/
+        
+    border-radius: 6px 6px 6px 0;
+    -webkit-border-radius: 6px 6px 6px 0;
+    -moz-border-radius: 6px 6px 6px 0;
+    -ms-border-radius: 6px 6px 6px 0;
+    -o-border-radius: 6px 6px 6px 0;
+}
+
+.pie{
+    background-color: black;
+    height: 7px;
+    width: 20px;
+    position: relative;
+    top: 33px;
+}
+
+.p-der div.pie{
+    border-radius: 6px 8px 0 6px;
+    -webkit-border-radius: 6px 8px 0 6px;
+    -moz-border-radius: 6px 8px 0 6px;
+    -ms-border-radius: 6px 8px 0 6px;
+    -o-border-radius: 6px 8px 0 6px;
+        /*
+    transform: rotate(0deg);
+    -webkit-
+    -moz-
+    -ms-
+    -o-*/
+        
+    transform-origin: 3px 3px;
+    -webkit-transform-origin: 3px 3px;
+    -moz-transform-origin: 3px 3px;
+    -ms-transform-origin: 3px 3px;
+    -o-transform-origin: 3px 3px;
+}
+
+.p-izq div.pie{
+    border-radius: 5px 5px 5px 0;
+    -webkit-border-radius: 5px 5px 5px 0;
+    -moz-border-radius: 5px 5px 5px 0;
+    -ms-border-radius: 5px 5px 5px 0;
+    -o-border-radius: 5px 5px 5px 0;
+        /*
+    transform: rotate(0deg);
+    -webkit-
+    -moz-
+    -ms-
+    -o-
+        */
+    transform-origin: 15px 3px;
+    -webkit-transform-origin: 15px 3px;
+    -moz-transform-origin: 15px 3px;
+    -ms-transform-origin: 15px 3px;
+    -o-transform-origin: 15px 3px;
+
+}
+
+.plato{
+    height: 10px;
+    background-color: #595959;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+        
+    position: relative;
+    border-bottom: 2px solid rgb(158, 158, 158)
+}
+
+.plato2{
+    background-color: #595959;
+    position: absolute;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+        
+    margin: -3px 6px;
+    width: 28px;
+    height: 5px;
+    border-bottom: 2px solid rgb(158, 158, 158)
+}
+
+.plato-izq{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+
+.plato-der{
+    width: 40px;
+    margin: auto
+}
+
+.basePlato{
+    height: 70px;
+    width: 5px;
+    background-color: #595959;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.tambo{
+    height: 70px;
+    background-color: white;
+    width: 70px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+        
+    margin: 10px -7px 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 0;
+    color: #666;
+    font-size: 12px;
+    border: 4px solid #666;
+}
+.cajan{
+    height: 50px;
+    width: 60px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    z-index: 0;
+}
+
+.grupo3{
+    height: 145px;
+    margin: -100px auto;
+    width: 600px;
+    position: relative;
+    z-index: 1;
+}
+#bateria div.col-4{padding: 0}
+
+.guitarra{
+    position: absolute;
+}
+.g-cuerpo{
+    height: 35px;
+    width: 55px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+        
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+        
+    position: absolute;
+    top: -2px;
+    left: -16px;
+    z-index: 1;
+    border-bottom: 6px solid #666;
+}
+
+#harrison .g-cuerpo{
+    top:7px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+
+#lennon .g-cuerpo{
+    top:7px;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+.g-cola{
+    width: 58px;
+    height: 10px;
+    background-color: rgb(199, 199, 199);
+    margin: -20px 53px;
+    border-bottom: 3px solid #666;
+    border-right: 10px solid #666;
+}
+
+.g-bujero{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+        
+    margin: 6px 13px;
+}
+
+.microfono{
+    height: 140px;
+    width: 5px;
+    background-color: #000000;
+}
+
+.mic{
+    width: 10px;   
+    height: 20px;
+    background-color: silver;
+    border-radius: 5px 5px 2px 2px;
+    -webkit-border-radius: 5px 5px 2px 2px;
+    -moz-border-radius: 5px 5px 2px 2px;
+    -ms-border-radius: 5px 5px 2px 2px;
+    -o-border-radius: 5px 5px 2px 2px;
+        
+    margin: 4px -3px;
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+        
+    transform-origin: 5px 2px;
+    -webkit-transform-origin: 5px 2px;
+    -moz-transform-origin: 5px 2px;
+    -ms-transform-origin: 5px 2px;
+    -o-transform-origin: 5px 2px;
+}
+
+.mic-der{
+    transform: rotate(235deg);
+    -webkit-transform: rotate(235deg);
+    -moz-transform: rotate(235deg);
+    -ms-transform: rotate(235deg);
+    -o-transform: rotate(235deg);
+}
+
+.mic-base{
+    height: 5px;
+    width: 25px;
+    background-color: black;
+    margin: 0 -10px;
+}
+
+.mano{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(247, 217, 217);
+    position: absolute;
+    margin: 36px 2px;
+    z-index: 0;
+}
+
+.palo{
+    height: 33px;
+    width: 3px;
+    background-color: #666;
+    margin: 2px;
+    border-bottom: 5px solid #777;
+}
+
+#paul div.g-cuerpo{
+    transform: rotate(-147deg);
+    -webkit-transform: rotate(-147deg);
+    -moz-transform: rotate(-147deg);
+    -ms-transform: rotate(-147deg);
+    -o-transform: rotate(-147deg);
+    border-bottom: 0;
+    border-top: 4px solid #666;
+    margin: 11px 10px;
+
+}
+/*
+audio{
+    margin: auto;
+    width: 44px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}*/
+
+/*ANIMACION*/
+
+/*RINGO | CABEZA*/
+#ringo div.cabeza{
+    animation: RingoCabeza .2s infinite ease-in alternate;
+    -webkit-animation: RingoCabeza .2s infinite ease-in alternate;
+    -moz-animation: RingoCabeza .2s infinite ease-in alternate;
+    -ms-animation: RingoCabeza .2s infinite ease-in alternate;
+}
+@keyframes RingoCabeza{
+    from {margin-left: -3px}
+    to {margin-left: 7px}
+}
+@-webkit-keyframes RingoCabeza{
+    from {margin-left: -3px}
+    to {margin-left: 7px}
+}
+@-moz-keyframes RingoCabeza{
+    from {margin-left: -3px}
+    to {margin-left: 7px}
+}
+@-ms-keyframes RingoCabeza{
+    from {margin-left: -3px}
+    to {margin-left: 7px}
+}
+
+
+/*RINGO | BRAZO IZQUIERDO*/
+#ringo div.b-izq{
+    animation: RibgoBrazoIzq .2s infinite ease-in alternate;
+    -webkit-animation: RibgoBrazoIzq .2s infinite ease-in alternate;
+    -moz-animation: RibgoBrazoIzq .2s infinite ease-in alternate;
+    -ms-animation: RibgoBrazoIzq .2s infinite ease-in alternate;
+}
+@keyframes RibgoBrazoIzq{
+    from {transform:rotate(75deg)}
+    to {transform: rotate(40deg);}
+}
+@-webkit-keyframes RibgoBrazoIzq{
+    from {-webkit-transform:rotate(75deg)}
+    to {-webkit-transform: rotate(40deg);}
+}
+ @-moz-keyframes RibgoBrazoIzq{
+    from {-moz-transform:rotate(75deg)}
+    to {-moz-transform: rotate(40deg);}
+}
+@-ms-keyframes RibgoBrazoIzq{
+    from {-ms-transform:rotate(75deg)}
+    to {-ms-transform: rotate(40deg);}
+}
+
+/*RINGO | BRAZO DERECHO*/
+#ringo div.b-der{
+    animation: RibgoBrazoDer .2s infinite ease-in alternate;
+    -webkit-animation: RibgoBrazoDer .2s infinite ease-in alternate;
+    -moz-animation: RibgoBrazoDer .2s infinite ease-in alternate;
+    -ms-animation: RibgoBrazoDer .2s infinite ease-in alternate;
+}
+@keyframes RibgoBrazoDer{
+    from {transform:rotate(-50deg)}
+    to {transform: rotate(-15deg);}
+}
+@-webkit-keyframes RibgoBrazoDer{
+    from {-webkit-transform:rotate(-50deg)}
+    to {-webkit-transform: rotate(-15deg);}
+}
+@-moz-keyframes RibgoBrazoDer{
+    from {-moz-transform:rotate(-50deg)}
+    to {-moz-transform: rotate(-15deg);}
+}
+@-ms-keyframes RibgoBrazoDer{
+    from {-ms-transform:rotate(-50deg)}
+    to {-ms-transform: rotate(-15deg);}
+}
+
+/*PAUL | CABEZA*/
+#paul .cabeza{
+    animation: PaulCabeza .2s infinite ease-in alternate;
+    -webkit-animation: PaulCabeza .2s infinite ease-in alternate;
+    -moz-animation: PaulCabeza .2s infinite ease-in alternate;
+    -ms-animation: PaulCabeza .2s infinite ease-in alternate;
+}
+
+@keyframes PaulCabeza{
+    from {margin-left: 2px}
+    to {margin-left: 8px; top: 5px}
+}
+@-webkit-keyframes PaulCabeza{
+    from {margin-left: 2px}
+    to {margin-left: 8px; top: 5px}
+}
+@-moz-keyframes PaulCabeza{
+    from {margin-left: 2px}
+    to {margin-left: 8px; top: 5px}
+}
+@-ms-keyframes PaulCabeza{
+    from {margin-left: 2px}
+    to {margin-left: 8px; top: 5px}
+}
+
+
+/*PAUL | BRAZO DERECHO*/
+#paul .b-der div.antebrazo{
+    animation: PaulBrazoDer .2s infinite ease-in alternate;
+    -webkit-animation: PaulBrazoDer .2s infinite ease-in alternate;
+    -moz-animation: PaulBrazoDer .2s infinite ease-in alternate;
+    -ms-animation: PaulBrazoDer .2s infinite ease-in alternate;
+}
+@keyframes PaulBrazoDer{
+    from {transform:rotate(95deg)}
+    to {transform: rotate(55deg);}
+}
+@-webkit-keyframes PaulBrazoDer{
+    from {-webkit-transform:rotate(95deg)}
+    to {-webkit-transform: rotate(55deg);}
+}
+@-moz-keyframes PaulBrazoDer{
+    from {-moz-transform:rotate(95deg)}
+    to {-moz-transform: rotate(55deg);}
+}
+@-ms-keyframes PaulBrazoDer{
+    from {-ms-transform:rotate(95deg)}
+    to {-ms-transform: rotate(55deg);}
+}
+
+/*PAUL | CUERPO*/
+#paul .saco, #paul .cuello, #harrison .cabeza{
+    animation: PaulSaco .2s infinite ease-in alternate;
+    -webkit-animation: PaulSaco .2s infinite ease-in alternate;
+    -moz-animation: PaulSaco .2s infinite ease-in alternate;
+    -ms-animation: PaulSaco .2s infinite ease-in alternate;
+}
+
+@keyframes PaulSaco{to {top: 5px}}
+@-webkit-keyframes PaulSaco{to {top: 5px}}
+@-moz-keyframes PaulSaco{to {top: 5px}}
+@-ms-keyframes PaulSaco{to {top: 5px}}
+
+#paul .brazo, #lennon .brazo{
+    animation: PaulBrazos .2s infinite ease-in alternate;
+    -webkit-animation: PaulBrazos .2s infinite ease-in alternate;
+    -moz-animation: PaulBrazos .2s infinite ease-in alternate;
+    -ms-animation: PaulBrazos .2s infinite ease-in alternate;
+}
+
+@keyframes PaulBrazos{to {margin-top: 5px}}
+@-webkit-keyframes PaulBrazos{to {margin-top: 5px}}
+@-moz-keyframes PaulBrazos{to {margin-top: 5px}}
+@-ms-keyframes PaulBrazos{to {margin-top: 5px}}
+
+
+/*Harrisonm, lennon | BRAZO IZQUIERDO*/
+#harrison .b-izq div.antebrazo, #lennon .b-izq div.antebrazo{
+    animation: HarrisonBrazoDer .2s infinite ease-in alternate;
+    -webkit-animation: HarrisonBrazoDer .2s infinite ease-in alternate;
+    -moz-animation: HarrisonBrazoDer .2s infinite ease-in alternate;
+    -ms-animation: HarrisonBrazoDer .2s infinite ease-in alternate;
+}
+@keyframes HarrisonBrazoDer{
+    from {transform:rotate(-60deg)}
+    to {transform: rotate(-105deg);}
+}
+@-webkit-keyframes HarrisonBrazoDer{
+    from {-webkit-transform:rotate(-60deg)}
+    to {-webkit-transform: rotate(-105deg);}
+}
+@-moz-keyframes HarrisonBrazoDer{
+    from {-moz-transform:rotate(-60deg)}
+    to {-moz-transform: rotate(-105deg);}
+}
+@-ms-keyframes HarrisonBrazoDer{
+    from {-ms-transform:rotate(-60deg)}
+    to {-ms-transform: rotate(-105deg);}
+}
+
+/*Harrison, Lennon Pie derecho*/
+#harrison .p-der div.pie, #lennon .p-der div.pie{
+    animation: PieDerechoAnim .2s infinite ease-in alternate;
+    -webkit-animation: PieDerechoAnim .2s infinite ease-in alternate;
+    -moz-animation: PieDerechoAnim .2s infinite ease-in alternate;
+    -ms-animation: PieDerechoAnim .2s infinite ease-in alternate;
+}
+@keyframes PieDerechoAnim{to {transform: rotate(-20deg)}}
+@-webkit-keyframes PieDerechoAnim{to {-webkit-transform: rotate(-20deg)}}
+@-moz-keyframes PieDerechoAnim{to {-moz-transform: rotate(-20deg)}}
+@-ms-keyframes PieDerechoAnim{to {-ms-transform: rotate(-20deg)}}
+
+
+/*LENON ANIM*/
+#lennon .saco, #lennon .cuello, #lennon .cabeza{
+    animation: LennonSaco .2s infinite ease-in alternate;
+    -webkit-animation: LennonSaco .2s infinite ease-in alternate;
+    -moz-animation: LennonSaco .2s infinite ease-in alternate;
+    -ms-animation: LennonSaco .2s infinite ease-in alternate;
+}
+
+@keyframes LennonSaco{to {top: 7px}}
+@-webkit-keyframes LennonSaco{to {top: 10px}}
+@-moz-keyframes LennonSaco{to {top: 7px}}
+@-ms-keyframes LennonSaco{to {top: 7px}}
+
+#lennon .p-izq{
+    animation: LenonPiernaIzq .2s infinite ease-in alternate;
+    -webkit-animation: LenonPiernaIzq .2s infinite ease-in alternate;
+    -moz-animation: LenonPiernaIzq .2s infinite ease-in alternate;
+    -ms-animation: LenonPiernaIzq .2s infinite ease-in alternate;
+}
+@keyframes LenonPiernaIzq{to {transform: rotate(15deg)}}
+@-webkit-keyframes LenonPiernaIzq{to {-webkit-transform: rotate(15deg)}}
+@-moz-keyframes LenonPiernaIzq{to {-moz-transform: rotate(15deg)}}
+@-ms-keyframes LenonPiernaIzq{to {-ms-transform: rotate(15deg)}}
+
+#lennon .p-izq .pantorrilla{
+    animation: LenonPiernaIzqPanto .2s infinite ease-in alternate;
+    -webkit-animation: LenonPiernaIzqPanto .2s infinite ease-in alternate;
+    -moz-animation: LenonPiernaIzqPanto .2s infinite ease-in alternate;
+    -ms-animation: LenonPiernaIzqPanto .2s infinite ease-in alternate;
+}
+
+@keyframes LenonPiernaIzqPanto{to {transform: rotate(-20deg)}}
+@-webkit-keyframes LenonPiernaIzqPanto{to {-webkit-transform: rotate(-20deg)}}
+@-moz-keyframes LenonPiernaIzqPanto{to {-moz-transform: rotate(-20deg)}}
+@-ms-keyframes LenonPiernaIzqPanto{to {-ms-transform: rotate(-20deg)}}
+
+
+
+#lennon .p-der{
+    animation: LenonPiernaDer .2s infinite ease-in alternate;
+    -webkit-animation: LenonPiernaDer .2s infinite ease-in alternate;
+    -moz-animation: LenonPiernaDer .2s infinite ease-in alternate;
+    -ms-animation: LenonPiernaDer .2s infinite ease-in alternate;
+}
+
+@keyframes LenonPiernaDer{to {transform: rotate(-15deg)}}
+@-webkit-keyframes LenonPiernaDer{to {-webkit-transform: rotate(-15deg)}}
+@-moz-keyframes LenonPiernaDer{to {-moz-transform: rotate(-15deg)}}
+@-ms-keyframes LenonPiernaDer{to {-ms-transform: rotate(-15deg)}}
+
+#lennon .p-der .pantorrilla{
+    animation: LenonPiernaDerPanto .2s infinite ease-in alternate;
+    -webkit-animation: LenonPiernaDerPanto .2s infinite ease-in alternate;
+    -moz-animation: LenonPiernaDerPanto .2s infinite ease-in alternate;
+    -ms-animation: LenonPiernaDerPanto .2s infinite ease-in alternate;
+}
+
+@keyframes LenonPiernaDerPanto{to {transform: rotate(20deg)}}
+@-webkit-keyframes LenonPiernaDerPanto{to {-webkit-transform: rotate(20deg)}}
+@-moz-keyframes LenonPiernaDerPanto{to {-moz-transform: rotate(20deg)}}
+@-ms-keyframes LenonPiernaDerPanto{to {-ms-transform: rotate(20deg)}}
+
+
+.paused{
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -ms-animation-play-state:paused;
+}
