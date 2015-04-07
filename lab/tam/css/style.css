@@ -1,0 +1,194 @@
+@font-face {
+    font-family: icomoon;
+    src: url(fonts/icomoon.woff);
+}
+
+.icon{font-family: icomoon}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #ecf0f1;
+    font-family: Helvetica;
+    color: #2c3e50;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 52px;
+    background: #1abc9c;
+    color: white;
+    display: inline-block;
+    
+    margin: 16px 0;
+    
+    padding: 5px 48px;
+    
+    border-radius: 0 8px 50px 0;
+}
+
+div#mapa {
+    width: 1000px!important;
+    margin: 0 auto;
+    position: relative;
+    /* left: 50px; */
+}
+
+div#municipio {
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 101px;
+}
+
+div#municipio h2 {
+    font-size: 4em;
+    margin: 0 0 30px;
+}
+
+div#municipio ul {
+    list-style-type: none;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+div#municipio ul span:first-child {
+    color: #1abc9c;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+ul#moreInfo {
+    position: absolute;
+    list-style-type: none;
+    cursor: pointer;
+    line-height: 26px;
+    top: 374px;
+    /* padding: 0 0 0 16px; */
+    z-index: 5;
+    /* max-width: 156px; */
+}
+
+ul#moreInfo li{
+    
+}
+
+ul#moreInfo li:hover {
+    color: #1abc9c;
+}
+
+div#info {
+    position: fixed;
+    background: #2c3e50;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    z-index: 1;
+    transition: .5s;
+    color: white;
+}
+
+div#info.open{
+    right: 0
+}
+
+#info span:after{
+    content: "i";
+    font-size: 26px;
+    position: absolute;
+    top: 12px;
+    left: -44px;
+    cursor: pointer;
+    color: #34495e;
+}
+
+div#info.open span:after{
+    content: "×";
+    font-family: Arial;
+    /* font-weight: bold; */
+    font-size: 48px;
+    top: 0px;
+    left: -38px;
+}
+
+#info span:hover:after {
+    color: #1abc9c;
+}
+
+div#mapa > img {
+    /* width: 100%; */
+    /* height: auto; */
+    text-align: left;
+}
+
+#info h3 {
+    background: #34495e;
+    color: white;
+    margin: 0 0 40px 0;
+    text-align: center;
+    font-size: 13px;
+    padding: 13px 0;
+}
+
+#info p {
+    padding: 0 16px;
+}
+
+p#sign {
+    text-align: center;
+    font-size: 11px;
+}
+
+p#sign span.icon {
+    color: #e74c3c;
+}
+
+p#sign a {
+    color: #34495e;
+    text-decoration: none;
+}
+
+ul#moreInfo + div {
+    background: #2c3e50;
+    color: #CDDCEC;
+    width: 700px;
+    padding: 10px 32px;
+    position: fixed;
+    z-index: 10;
+    bottom: -100%;
+    left: 50%;      
+    transform: translate(-50%, 0);
+    border-radius: 4px 4px 0 0;
+    max-height: 90%;
+    overflow-y: auto;
+    transition: .5s;
+}
+
+ul#moreInfo + div h3 {
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+    margin: 14px 0;
+}
+
+ul#moreInfo + div h3 span {
+    font-size: 22px;
+}
+
+ul#moreInfo + div .close {
+    position: absolute;
+    right: 14px;
+    top: 6px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+ul#moreInfo + div .close:hover {
+    color: #1abc9c
+}
+
+ul#moreInfo + div.open{
+    bottom: 0
+}
