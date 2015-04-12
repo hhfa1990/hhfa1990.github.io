@@ -44,16 +44,17 @@ div#mapa {
 
 div#municipio {
     width: 400px;
-    position: absolute;
-    right: 0;
-    top: 101px;
+    position: fixed;
     background: rgba(0, 0, 0, 0.7);
     padding: 25px 36px;
     border-radius: 4px;
+    top: 85px;
+    left: 50%;      transform: translate(-50%, 0);
+    margin-left: 277px;
 }
 
 div#municipio h2 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0 0 30px;
 }
 
@@ -80,10 +81,12 @@ ul#moreInfo {
     /* padding: 0 0 0 16px; */
     z-index: 5;
     /* max-width: 156px; */
+    width: 110px;
 }
 
 ul#moreInfo li{
     transition: .5s
+;white-space: nowrap;
 }
 
 ul#moreInfo li:hover {
