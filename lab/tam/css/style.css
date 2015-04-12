@@ -8,15 +8,15 @@
 body{
     margin: 0;
     padding: 0;
-    background: #ecf0f1;
+    background: #000000;
     font-family: Helvetica;
-    color: #2c3e50;
-    overflow-x: hidden;
+    color: #FFFFFF;
+    overflow: hidden;
 }
 
 body{
-    overflow-y: auto
-}
+    /* overflow-y: auto
+ */}
 
 body.open{
     overflow-y: hidden
@@ -36,7 +36,7 @@ h1 {
 }
 
 div#mapa {
-    width: 1000px!important;
+    width: 1050px!important;
     margin: 0 auto;
     position: relative;
     /* left: 50px; */
@@ -47,6 +47,9 @@ div#municipio {
     position: absolute;
     right: 0;
     top: 101px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px 36px;
+    border-radius: 4px;
 }
 
 div#municipio h2 {
@@ -59,6 +62,7 @@ div#municipio ul {
     line-height: 32px;
     margin: 0;
     padding: 0;
+    display: none;
 }
 
 div#municipio ul span:first-child {
@@ -79,20 +83,21 @@ ul#moreInfo {
 }
 
 ul#moreInfo li{
-    
+    transition: .5s
 }
 
 ul#moreInfo li:hover {
+    padding-left: 10px;
     color: #1abc9c;
 }
 
 div#info {
     position: fixed;
     background: #2c3e50;
-    width: 300px;
+    width: 330px;
     top: 0;
     bottom: 0;
-    right: -300px;
+    right: -330px;
     z-index: 1;
     transition: .5s;
     color: white;
@@ -109,7 +114,7 @@ div#info.open{
     top: 12px;
     left: -44px;
     cursor: pointer;
-    color: #34495e;
+    color: #FFFFFF;
 }
 
 div#info.open span:after{
@@ -136,8 +141,8 @@ div#mapa > img {
     color: white;
     margin: 0 0 40px 0;
     text-align: center;
-    font-size: 13px;
-    padding: 13px 0;
+    font-size: 16px;
+    padding: 13px 16px;
 }
 
 #info p {
@@ -145,8 +150,12 @@ div#mapa > img {
 }
 
 p#sign {
-    text-align: center;
+    position: fixed;
     font-size: 11px;
+    right: 17px;
+    bottom: 0px;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 0;
 }
 
 p#sign span.icon {
@@ -154,10 +163,14 @@ p#sign span.icon {
 }
 
 p#sign a {
-    color: #34495e;
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
+p#sign a:hover{
+    color: white;
+    text-decoration: underline
+}
 ul#moreInfo + div {
     background: #2c3e50;
     color: #CDDCEC;
@@ -270,3 +283,105 @@ div#municipioInfo .data {
   padding: 0 30px;
 }
 
+ul.team {
+    list-style-type: none;
+    padding-left: 16px;
+    margin: -25px 0 0;
+}
+
+ul.team li {
+    line-height: 28px;
+}
+
+ul.team li img {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(26, 188, 156);
+    position: relative;
+    top: 18px;
+    margin-right: 8px;
+}
+
+#bg_matamoros,
+#bg_valleHermoso,
+#bg_rioBravo,
+#bg_reynosa,
+#bg_diazOrdaz,
+#bg_camargo,
+#bg_miguelAleman,
+#bg_mier,
+#bg_guerrero,
+#bg_nuevoLaredo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    background-size: 100%;
+    transition: 1s;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#bg_matamoros.show,
+#bg_valleHermoso.show,
+#bg_rioBravo.show,
+#bg_reynosa.show,
+#bg_diazOrdaz.show,
+#bg_camargo.show,
+#bg_miguelAleman.show,
+#bg_mier.show,
+#bg_guerrero.show,
+#bg_nuevoLaredo.show{opacity: 1;/* transition: 1s; */}
+
+#bg_matamoros{background-image: url(../img/matamoros.jpg);}
+#bg_valleHermoso{background-image: url(../img/valleHermoso.jpg);}
+#bg_rioBravo{background-image: url(../img/rioBravo.jpg);}
+#bg_reynosa{background-image: url(../img/reynosa.jpg);}
+#bg_diazOrdaz{background-image: url(../img/diazOrdaz.jpg);}
+#bg_camargo{background-image: url(../img/camargo.jpg);}
+#bg_miguelAleman{background-image: url(../img/miguelAleman.jpg);}
+#bg_mier{background-image: url(../img/mier.jpg);}
+#bg_guerrero{background-image: url(../img/guerrero.jpg);}
+#bg_nuevoLaredo{background-image: url(../img/nuevoLaredo.jpg);}
+
+.right{
+    /* border-radius: 4px; */
+    
+}
+.data .left{
+    float: left;
+    margin-right: 42px
+}
+.data .right{
+    float: right;
+    margin-left: 42px;
+}
+
+.data .left, .data .right{margin-bottom: 42px;/* max-width: 50%; *//* min-width: 30%; */}
+
+.data img + p {
+    margin: 3px 0 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.data img {
+    border-radius: 4px;
+    max-width: 500px;
+}
+
+img.center{display: block;margin: 0 auto}
+
+canvas#chart-area+p {
+    text-align: right;
+}
+
+canvas#chart-area {
+    display: block;
+    margin: 0 auto;
+}
