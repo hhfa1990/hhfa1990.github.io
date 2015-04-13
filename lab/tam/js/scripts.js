@@ -1,5 +1,13 @@
 $(document).on("ready",function(){
 
+	function getHeight(){
+  var height = window.innerHeight; //obtiene la altura de la ventana del navegador
+	$("#info h3 + div").height(height-62); //redimenciona el div 
+}
+ 
+getHeight();//carga la primera vez
+window.onresize = function(){getHeight();}; //redimenciona si se redimenciona la ventana
+
 	var pieData = [
 	{
 		value: 384033,

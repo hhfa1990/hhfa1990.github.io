@@ -97,10 +97,10 @@ ul#moreInfo li:hover {
 div#info {
     position: fixed;
     background: #2c3e50;
-    width: 330px;
+    width: 365px;
     top: 0;
     bottom: 0;
-    right: -330px;
+    right: -365px;
     z-index: 1;
     transition: .5s;
     color: white;
@@ -142,10 +142,14 @@ div#mapa > img {
 #info h3 {
     background: #34495e;
     color: white;
-    margin: 0 0 40px 0;
+    margin: 0;
     text-align: center;
     font-size: 16px;
     padding: 13px 16px;
+}
+
+#info h3 + div {
+    overflow-y: auto;
 }
 
 #info p {
