@@ -16,8 +16,8 @@ window.onresize = function(){getHeight();}; //redimenciona si se redimenciona la
 		label: "Nuevo Laredo"
 	},
 	{
-		value: 4447
-,		color: "#46BFBD",
+		value: 4447,		
+		color: "#46BFBD",
 		highlight: "#5AD3D1",
 		label: "Guerrero"
 	},
