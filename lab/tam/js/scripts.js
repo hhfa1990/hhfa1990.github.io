@@ -16,8 +16,8 @@ window.onresize = function(){getHeight();}; //redimenciona si se redimenciona la
 		label: "Nuevo Laredo"
 	},
 	{
-		value: 4447,
-		color: "#46BFBD",
+		value: 4447
+,		color: "#46BFBD",
 		highlight: "#5AD3D1",
 		label: "Guerrero"
 	},
@@ -189,7 +189,7 @@ window.onload = function(){
 		activEcon: {
 			nombre: "Actividades económicas",
 			icon: "t",
-			desc: "<ul><li>Turismo cinegético.</li><li>Turismo de negocios.</li><li>Turismo médico.</li><li>Turismo playa y sol.</li></ul>"
+			desc: "<ul><li>Turismo cinegético.</li><li>Turismo de negocios.</li><li>Turismo médico.</li><li>Turismo playa y sol.</li><li>Ganadería</li><li>Indiustria</li><li>Pesca</li><li>Comercio y servicios</li></ul>"
 		},
 		gastronomia: {
 			nombre: "Gastronomía",
