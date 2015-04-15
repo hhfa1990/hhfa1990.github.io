@@ -198,13 +198,6 @@ window.onload = function(){
 		}
 	};
 
-
-
-	// $("#municipio h2").text(data["reynosa"].nombre);
-	// $("#noHab").text(data["reynosa"].habitantes);
-	// $("#noViv").text(data["reynosa"].viviendas);
-	// $("#viasCom").text(data["reynosa"].viasCom);
-
 	$("#Map area").hover(function(){
 		var municipio = $(this).attr("id");
 
@@ -235,7 +228,7 @@ window.onload = function(){
 
 		$("#bg_matamoros, #bg_valleHermoso, #bg_rioBravo, #bg_reynosa, #bg_diazOrdaz, #bg_camargo, #bg_miguelAleman, #bg_mier, #bg_guerrero, #bg_nuevoLaredo").removeClass("show");
 		//console.log(municipio);
-		clearTimeout(timer);
+		//clearTimeout(timer);
 
 		//var timer = setTimeout(function(){
 			$("#bg_"+municipio).addClass("show");
