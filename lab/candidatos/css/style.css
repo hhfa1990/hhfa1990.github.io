@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background: #ecf0f1;
+}
+
+a {
+    color: #3498db;
+}
+
+a:hover{
+    color: #2980b9
+}
+
+h1 {
+    background: #e74c3c;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: lighter;
+    padding: 9px 20px;
+    border-radius: 0 32px 10px 0;
+    transition: .5s;
+}
+
+div#welcome {
+    color: #34495e;
+    text-align: center;
+    width: 80%;
+    margin: 45px auto;
+}
+
+div#welcome h3 {
+    font-size: 52px;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+div#candidatos {
+    margin-bottom: 40px;
+}
+
+div#candidatos > ul > li {
+    display: inline-block;
+    width: 8%;
+    background-size: 100%;
+    border-radius: 15px;
+    transition: .5s;
+    cursor: pointer;
+    opacity: .3;
+    /* background: blueviolet; */
+}
+div#candidatos > ul > li.active,
+div#candidatos > ul > li:hover {
+    opacity: 1
+}
+
+li#pan {
+    background-image: url(../img/pan.png);
+}
+
+li#pri {
+    background-image: url(../img/pri.png);
+}
+
+li#prd {
+    background-image: url(../img/prd.png);
+}
+
+li#pt {
+    background-image: url(../img/pt.png);
+}
+
+li#verde {
+    background-image: url(../img/verde.png);
+}
+
+li#movCiud {
+    background-image: url(../img/movCiud.png);
+}
+
+li#nuevAli {
+    background-image: url(../img/nuevAli.png);
+}
+
+li#morena {
+    background-image: url(../img/morena.png);
+}
+
+li#humanista {
+    background-image: url(../img/humanista.png);
+}
+
+li#encSocial {
+    background-image: url(../img/encSocial.png);
+}
+
+div#candidatos > ul {
+    text-align: center;
+}
+
+div#info {
+    opacity: 0;
+    transition: .5s;
+    position: relative;
+}
+
+div#info.visible {
+    opacity: 1;
+}
+
+div#info > ul {
+    text-align: center;
+}
+
+div#info > ul > li {
+    display: inline-block;
+    width: 20%;
+    background: white;
+    color: #34495e;
+    padding: 10px 20px;
+    border-radius: 4px;
+    vertical-align: top;
+    position: relative;
+    transition: .5s;
+}
+
+div#info.visible > ul > li {
+    top: 0;
+}
+
+li#candidato {
+    border-top: 5px solid #2ecc71;
+    top: 200px;
+}
+
+li#propuestas {
+    border-top: 5px solid #9b59b6;
+    top: 150px;
+}
+
+li#antecedentes {
+    border-top: 5px solid #f1c40f;
+    top: 150px;
+}
+
+li#fuentes {
+    border-top: 5px solid #e74c3c;
+    top: 200px;
+}
+
+
+a.btn {
+    display: inline-block;
+    background: #e74c3c;
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 4px;
+    border-bottom: 2px solid #c0392b;
+    text-transform: uppercase;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+a.btn:hover {
+    background: #F9695C;
+    color: white
+}
+
+li#fuentes ul {
+    font-size: 12px;
+    overflow: hidden;
+}
+
+li#fuentes ul li {
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+h1.select {  font-size: 16px;}
