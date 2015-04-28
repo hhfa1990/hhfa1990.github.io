@@ -59,46 +59,6 @@ div#candidatos > ul > li:hover {
     opacity: 1
 }
 
-li#pan {
-    background-image: url(../img/pan.png);
-}
-
-li#pri {
-    background-image: url(../img/pri.png);
-}
-
-li#prd {
-    background-image: url(../img/prd.png);
-}
-
-li#pt {
-    background-image: url(../img/pt.png);
-}
-
-li#verde {
-    background-image: url(../img/verde.png);
-}
-
-li#movCiud {
-    background-image: url(../img/movCiud.png);
-}
-
-li#nuevAli {
-    background-image: url(../img/nuevAli.png);
-}
-
-li#morena {
-    background-image: url(../img/morena.png);
-}
-
-li#humanista {
-    background-image: url(../img/humanista.png);
-}
-
-li#encSocial {
-    background-image: url(../img/encSocial.png);
-}
-
 div#candidatos > ul {
     text-align: center;
 }
@@ -184,3 +144,17 @@ li#fuentes ul li {
 }
 
 h1.select {  font-size: 16px;}
+
+
+/*EDITAR IMAGENES DE LOS CANDIDATOS*/
+
+li#pan {background-image: url(../img/pan.png);}
+li#pri {background-image: url(../img/pri.png);}
+li#prd {background-image: url(../img/prd.png);}
+li#pt {background-image: url(../img/pt.png);}
+li#verde {background-image: url(../img/verde.png);}
+li#movCiud {background-image: url(../img/movCiud.png);}
+li#nuevAli {background-image: url(../img/nuevAli.png);}
+li#morena {background-image: url(../img/morena.png);}
+li#humanista {background-image: url(../img/humanista.png);}
+li#encSocial {background-image: url(../img/encSocial.png);}
