@@ -87,7 +87,7 @@ De acuerdo a los id (patito1, jarkor2, sayayin3), los datos quedarían de la sig
 		}
 	};
 ```
-Todos los campos a excepción del de nombre tomara el html tal cual, se recomienda utilizar solamente los básicos como: **<p>, <strong>, <ul>, <li> y <a>** para mantener el mismo formato.
+Todos los campos a excepción del de nombre tomara el html tal cual, se recomienda utilizar solamente los básicos como: **p, strong, ul, li y a** para mantener el mismo formato.
 
 ### img/
 Las imagenes deben de ir dentro del directorio img/. El formato puede ser png o jpg y debe de ser de forma cuadrada y no mayor a 300 x 300 pixeles. Es una imagen por candidato y cada una debe de llamarse como el id asignado a cada candidato.
