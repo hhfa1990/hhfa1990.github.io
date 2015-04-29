@@ -182,6 +182,11 @@ window.onload = function(){
 	};
 
 	var info = {
+		zona:{
+			nombre: "Zona",
+			icon: "?",
+			desc:"<p><strong>Municipios que integran la región</strong></p><ul><li>Camargo</li><li>Díaz Ordaz</li><li>Guerrero</li><li>Matamoros</li><li>Mier</li><li>Miguel Alemán </li><li>Nuevo Laredo</li><li>Reynosa</li><li>Rio Bravo</li><li>Valle Hermoso</li></ul><p><strong>Ubicación</strong></p><p>Se localiza en el extremo norte del Estado, a todo lo largo del Río Bravo desde Laredo hasta Matamoros, con una superficie aproximada de 16,938 km2. y altitudes montañosas de 180 metros sobre el nivel del mar.</p>"
+		},
 		hidrografia: {
 			nombre: "Hidrografía",
 			icon: "g",
@@ -226,6 +231,11 @@ window.onload = function(){
 			nombre: "Gastronomía",
 			icon: "?",
 			desc: "<p>La gastronomía que caracteriza a la zona fronteriza es principalmente:</p><ul><li>Cabrito asado.</li><li>Gorditas.</li><li>Tortillas de harina.</li><li>Machacada o machaca.</li><li>Carne seca.</li><li>Parrilladas.</li><li>Ceviches.</li><li>Salpicón de jaiba.</li><li>Discada.</li><li>Carne asada en leña o carbón de mezquite.</li></ul>"
+		},
+		retos:{
+			nombre: "Retos",
+			icon: "?",
+			desc:"<p>Retos de la región:</p><ul><li>garantizar el abasto de agua.</li><li>atención a los migrantes.</li><li>un desarrollo urbano ordenado.</li><li>el impulso a la educación media superior.</li><li>el fomento a la apertura de parques industriales electro-electrónicos y automotrices.</li><li>obras de reforzamiento a los bordos de proteccion del Rio Bravo.</li><li>la habilitación del canal alivio mexicano para el control de avenidas.</li></ul>"
 		}
 	};
 
